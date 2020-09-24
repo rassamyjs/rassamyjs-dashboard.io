@@ -24,7 +24,7 @@ smartly, and drink safe.
 We're at the point of wanting to try a beer right? Now you have to find out what kind you want to drink. That's where this dataset comes in.
 It will show the top ten most reviewed beers and visualize the reviews of based off of the rubric. 
 
-### The code to get to the graphs
+## The Codes 
 
 ~~~
 data_copy['beer_name'].value_counts().head(10)
@@ -70,5 +70,10 @@ These codes will be able to give me the means of what I want to see.
 | Stone IPA (India Pale Ale) | 2575 | 4.24 | 4.14 | 4.14 | 4.30 | 4.26 |
 | Pliny The Elder | 2527 | 4.59 | 4.39 | 4.45 | 4.63 | 4.59 |
 
-###
+## The Graph
+
+A visual of the data to show the mean of the overall review score
+
+[Bar Graph]("/assets/img/beer_review_overall_review.png")
+
 
