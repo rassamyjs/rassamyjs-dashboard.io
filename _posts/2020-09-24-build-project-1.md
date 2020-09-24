@@ -12,7 +12,7 @@ This set of reviews is based off a simple rubric: the aroma, appearnace, palete,
 I am going to check out what was the most popular beers that were reviewed and see which one was the highest rated.
 
 
-## Why beer?
+## Why Beer?
 
 It is not healthy to sit on a chair and all day and night. Once you start dreaming about your code, it's over. Your life is now consumed 
 in the life of code. Being consumed in code can be a positive or negative depending on if you have fun or are struggling. You should get
@@ -71,9 +71,8 @@ These codes will be able to give me the means of what I want to see.
 | Pliny The Elder | 2527 | 4.59 | 4.39 | 4.45 | 4.63 | 4.59 |
 
 ## The Graph
-
 A visual of the data to show the mean of the overall review score
 
-/assets/img/beer_review_overall_review.png
+![Bar Graph](/assets/img/beer_review_overall_review.png)
 
 
