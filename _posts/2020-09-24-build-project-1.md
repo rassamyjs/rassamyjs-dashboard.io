@@ -14,7 +14,7 @@ I am going to check out what was the most popular beers that were reviewed and s
 
 ## Why Beer?
 
-It is not healthy to sit on a chair and all day and night. Once you start dreaming about your code, it's over. Your life is now consumed 
+It isn't healthy to sit on a chair and all day and night. Once you start dreaming about your code, it's over. Your life is now consumed 
 in the life of code. Being consumed in code can be a positive or negative depending on if you have fun or are struggling. You should get
 a change of pace and get your mind off of code.
 
@@ -77,3 +77,56 @@ A visual of the data to show the mean of the overall review score
 
 With the table, it might of been obvious. With an average of 4.59 out of 5, Pliny The Elder is the highest rated review of the ten most reviewed. Here is the link to get more info on [Pliny The Elder](https://https://russianriverbrewing.com/pliny-the-elder/).
 
+## Some More Exploration
+After checking out that Pliny The Elder was the best rated out of the ten, I wanted to look into the dataset some more. Looking at the data, I saw something interesting.
+
+~~~
+pliny.head()
+~~~
+One of the rows had someone rate a couple things with 3s and 4s but gave an overall review of 5
+
+| Beer Name | Review Count | Aroma | Appearance | Palete | Taste | Overall |
+| :------ |:--- |:--- |:--- |:--- |:--- |:--- |
+| Pliny The Elder | 2527 | 4.50 | 4.00 | 3.00 | 3.50 | 5.00 |
+
+I'm not the best at math, but I can see the math does not add up. There is some **FAKE NEWS/FAKE INFO** being spread over here. Okay, it might not be that serious. Perhaps someone who reviewed it didn't pay enough attention. To get a true average overall mean I need to add up the columns and do some division. 
+
+~~~
+pliny['Overall'] = ((pliny['review_aroma'] + pliny['review_appearance'] + pliny['review_palate'] + pliny['review_taste']) / 4)
+~~~
+
+This gives me a new column to compare the new overall mean review with the old one.
+| Beer Name | User Review | Mean Review |
+| :------ |:--- |:--- |
+| Pliny The Elder | 4.59 | 4.52 |
+~~~
+compare = {'Mean Rating' : pliny['Overall'],
+           'Reviewer Rating' : pliny['review_overall']}
+~~~
+
+![plot](/assets/img/beer_review_overall_comparison.png)
+
+We can see that the user review was going off of .5 while the new mean goes off of .1. This makes the data more spread out. Does this change anything?
+
+## Comparing Graphs
+
+| Beer Name | User Review | Mean Review |
+| :------ |:--- |:--- |
+| 90 Minute IPA | 4.15 | 4.23 |
+| India Pale Ale | 3.84 | 3.80 |
+| Old Rasputin Russian Imperial Stout | 4.17 | 4.29 |
+| Sierra Nevada Celebration Ale | 4.17 | 4.15 |
+| Two Hearted Ale | 4.33 | 4.22 |
+| Stone Ruination IPA | 4.07 | 4.18 |
+| Arrogant Bastard Ale | 4.16 | 4.27 |
+| Sierra Nevada Pale Ale | 4.24 | 4.00 |
+| Stone IPA (India Pale Ale) | 4.26 | 4.21 |
+| Pliny The Elder | 4.59 | 4.52 |
+
+The original graph
+![Bar Graph](/assets/img/beer_review_overall_review.png)
+
+The new graph
+![Bar Graph](/assets/img/beer_review_overall_other_mean_base.png)
+
+Base off the table and graphs. We can see that the new means did not change much.
