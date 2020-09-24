@@ -73,7 +73,7 @@ These codes will be able to give me the means of what I want to see.
 ## The Graph
 A visual of the data to show the mean of the overall review score
 
-![Bar Graph](/assets/img/beer_review_overall_review.png)
+![](/assets/img/beer_review_overall_review.png)
 
 With the table, it might of been obvious. With an average of 4.59 out of 5, Pliny The Elder is the highest rated review of the ten most reviewed. Here is the link to get more info on [Pliny The Elder](https://russianriverbrewing.com/pliny-the-elder/).
 
@@ -124,9 +124,9 @@ We can see that the user review was going off of .5 while the new mean goes off 
 | Stone IPA (India Pale Ale) | 4.26 | 4.21 |
 | Pliny The Elder | 4.59 | 4.52 |
 
-!(/assets/img/beer_review_overall_review.png)
+![](/assets/img/beer_review_overall_review.png)
 
-!(/assets/img/beer_review_overall_other_mean_base.png)
+![](/assets/img/beer_review_overall_other_mean_base.png)
 
 ## Conclusion
 
