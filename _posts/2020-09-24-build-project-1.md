@@ -10,7 +10,7 @@ This blog post will explore the dataset of the reviews of many kinds of beers fo
 This set of reviews is based off a simple rubric: the aroma, appearnace, palete, taste, and the reviewer's overall review. 
 
 I am going to check out what was the most popular beers that were reviewed and see which one was the highest rated.
----
+
 
 ## Why beer?
 
