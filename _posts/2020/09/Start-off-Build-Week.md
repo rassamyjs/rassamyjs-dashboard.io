@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Start of Build Week
+subtitle: My journey during Lambda
 tags: [python, other]
 ---
 
