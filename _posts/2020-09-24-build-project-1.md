@@ -73,7 +73,7 @@ These codes will be able to give me the means of what I want to see.
 ## The Graph
 A visual of the data to show the mean of the overall review score
 
-![](/assets/img/beer_review_overall_review.png)
+![Bar Graph](https://github.com/rassamyjs/rassamyjs-dashboard.io/blob/master/assets/img/beer_review_overall_review.png)
 
 With the table, it might of been obvious. With an average of 4.59 out of 5, Pliny The Elder is the highest rated review of the ten most reviewed. Here is the link to get more info on [Pliny The Elder](https://russianriverbrewing.com/pliny-the-elder/).
 
@@ -105,7 +105,7 @@ compare = {'Mean Rating' : pliny['Overall'],
            'Reviewer Rating' : pliny['review_overall']}
 ~~~
 
-![plot](/assets/img/beer_review_overall_comparison.png)
+![Plot Graph]https://github.com/rassamyjs/rassamyjs-dashboard.io/blob/master/assets/img/beer_review_overall_review.png
 
 We can see that the user review was going off of .5 while the new mean goes off of .1. This makes the data more spread out. Does this change anything?
 
