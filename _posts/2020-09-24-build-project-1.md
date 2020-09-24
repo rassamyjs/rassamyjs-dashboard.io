@@ -38,8 +38,8 @@ Using value counts to look at the list in the dataframe, I can look up how many 
 | Old Rasputin Russian Imperial Stout | 3111 |
 | Sierra Nevada Celebration Ale | 3000 |
 | Two Hearted Ale | 2728 |
-| Arrogant Bastard Ale | 2704 |
 | Stone Ruination IPA | 2704 |
+| Arrogant Bastard Ale | 2704 |
 | Sierra Nevada Pale Ale | 2587 |
 | Stone IPA (India Pale Ale) | 2575 |
 | Pliney The Elder | 2527 |
@@ -64,8 +64,8 @@ These codes will be able to give me the means of what I want to see.
 | Old Rasputin Russian Imperial Stout | 3111 | 4.20 | 4.37 | 4.23 | 4.34 | 4.17 |
 | Sierra Nevada Celebration Ale | 3000 | 4.08 | 4.23 | 4.08 | 4.19 | 4.17 |
 | Two Hearted Ale | 2728 | 4.27 | 4.15 | 4.14 | 4.31 | 4.33 |
-| Arrogant Bastard Ale | 2704 | 4.12 | 4.20 | 4.14 | 4.27 | 4.07 |
-| Stone Ruination IPA | 2704 | 4.34 | 4.18 | 4.18 | 4.35 | 4.16 |
+| Stone Ruination IPA | 2704 | 4.12 | 4.20 | 4.14 | 4.27 | 4.07 |
+| Arrogant Bastard IPA | 2704 | 4.34 | 4.18 | 4.18 | 4.35 | 4.16 |
 | Sierra Nevada Pale Ale | 2587 | 3.91 | 4.00 | 3.97 | 4.11 | 4.24 |
 | Stone IPA (India Pale Ale) | 2575 | 4.24 | 4.14 | 4.14 | 4.30 | 4.26 |
 | Pliney The Elder | 2527 | 4.59 | 4.39 | 4.45 | 4.63 | 4.59 |
