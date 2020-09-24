@@ -123,10 +123,8 @@ We can see that the user review was going off of .5 while the new mean goes off 
 | Stone IPA (India Pale Ale) | 4.26 | 4.21 |
 | Pliny The Elder | 4.59 | 4.52 |
 
-The original graph
 ![Bar Graph](/assets/img/beer_review_overall_review.png)
 
-The new graph
 ![Bar Graph](/assets/img/beer_review_overall_other_mean_base.png)
 
 Base off the table and graphs. We can see that the new means did not change much.
