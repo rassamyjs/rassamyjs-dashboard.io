@@ -75,7 +75,7 @@ A visual of the data to show the mean of the overall review score
 
 ![Bar Graph](/assets/img/beer_review_overall_review.png)
 
-With the table, it might of been obvious. With an average of 4.59 out of 5, Pliny The Elder is the highest rated review of the ten most reviewed. Here is the link to get more info on [Pliny The Elder](https://https://russianriverbrewing.com/pliny-the-elder/).
+With the table, it might of been obvious. With an average of 4.59 out of 5, Pliny The Elder is the highest rated review of the ten most reviewed. Here is the link to get more info on [Pliny The Elder](https://russianriverbrewing.com/pliny-the-elder/).
 
 ## Some More Exploration
 After checking out that Pliny The Elder was the best rated out of the ten, I wanted to look into the dataset some more. Looking at the data, I saw something interesting.
@@ -127,4 +127,8 @@ We can see that the user review was going off of .5 while the new mean goes off 
 
 ![Bar Graph](/assets/img/beer_review_overall_other_mean_base.png)
 
-Base off the table and graphs. We can see that the new means did not change much.
+## Conclusion
+
+Based off the table and graphs, we can see that the new mean does not change too much when graphing it. Why is that? The reason is from the amount of reviews. There is so many reviews already that a couple negative reviews will not change the outcome too much. [This](https://https://www.youtube.com/watch?v=8idr1WZ1A7Q&amp;ab_channel=3Blue1Brown) Youtube video does an excellent showing how large or little a negative rating will change the total rating. 
+
+To summarize, out of the ten most reviewed beers, Pliny The Elder is still rated the highest.  
