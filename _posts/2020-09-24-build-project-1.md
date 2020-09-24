@@ -96,6 +96,7 @@ pliny['Overall'] = ((pliny['review_aroma'] + pliny['review_appearance'] + pliny[
 ~~~
 
 This gives me a new column to compare the new overall mean review with the old one.
+
 | Beer Name | User Review | Mean Review |
 | :------ |:--- |:--- |
 | Pliny The Elder | 4.59 | 4.52 |
@@ -123,9 +124,9 @@ We can see that the user review was going off of .5 while the new mean goes off 
 | Stone IPA (India Pale Ale) | 4.26 | 4.21 |
 | Pliny The Elder | 4.59 | 4.52 |
 
-![Bar Graph](/assets/img/beer_review_overall_review.png)
+!(/assets/img/beer_review_overall_review.png)
 
-![Bar Graph](/assets/img/beer_review_overall_other_mean_base.png)
+!(/assets/img/beer_review_overall_other_mean_base.png)
 
 ## Conclusion
 
