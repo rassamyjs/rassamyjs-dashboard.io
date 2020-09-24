@@ -74,6 +74,6 @@ These codes will be able to give me the means of what I want to see.
 
 A visual of the data to show the mean of the overall review score
 
-[Bar Graph]("/assets/img/beer_review_overall_review.png")
+/assets/img/beer_review_overall_review.png
 
 
