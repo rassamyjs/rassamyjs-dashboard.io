@@ -75,4 +75,5 @@ A visual of the data to show the mean of the overall review score
 
 ![Bar Graph](/assets/img/beer_review_overall_review.png)
 
+With the table, it might of been obvious. With an average of 4.59 out of 5, Pliny The Elder is the highest rated review of the ten most reviewed. Here is the link to get more info on [Pliny The Elder](https://https://russianriverbrewing.com/pliny-the-elder/).
 
