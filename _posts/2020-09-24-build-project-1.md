@@ -105,7 +105,7 @@ compare = {'Mean Rating' : pliny['Overall'],
            'Reviewer Rating' : pliny['review_overall']}
 ~~~
 
-![Plot Graph]https://github.com/rassamyjs/rassamyjs-dashboard.io/blob/master/assets/img/beer_review_overall_review.png
+![Plot Graph](https://github.com/rassamyjs/rassamyjs-dashboard.io/blob/master/assets/img/beer_review_overall_comparison.png)
 
 We can see that the user review was going off of .5 while the new mean goes off of .1. This makes the data more spread out. Does this change anything?
 
@@ -124,9 +124,9 @@ We can see that the user review was going off of .5 while the new mean goes off 
 | Stone IPA (India Pale Ale) | 4.26 | 4.21 |
 | Pliny The Elder | 4.59 | 4.52 |
 
-![](/assets/img/beer_review_overall_review.png)
+![Bar Graph](https://github.com/rassamyjs/rassamyjs-dashboard.io/blob/master/assets/img/beer_review_overall_review.png)
 
-![](/assets/img/beer_review_overall_other_mean_base.png)
+![Bar Graph](https://github.com/rassamyjs/rassamyjs-dashboard.io/blob/master/assets/img/beer_review_overall_other_mean_base.png)
 
 ## Conclusion
 
