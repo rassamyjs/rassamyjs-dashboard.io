@@ -24,7 +24,7 @@ smartly, and drink safe.
 We're at the point of wanting to try a beer right? Now you have to find out what kind you want to drink. That's where this dataset comes in.
 It will show the top ten most reviewed beers and visualize the reviews of based off of the rubric. 
 
-## The code to get to the graphs
+### The code to get to the graphs
 
 ~~~
 data_copy['beer_name'].value_counts().head(10)
@@ -42,7 +42,7 @@ Using value counts to look at the list in the dataframe, I can look up how many 
 | Arrogant Bastard Ale | 2704 |
 | Sierra Nevada Pale Ale | 2587 |
 | Stone IPA (India Pale Ale) | 2575 |
-| Pliney The Elder | 2527 |
+| Pliny The Elder | 2527 |
 
 As you can see there is quite a bit of reviews going on about beer. I guess I'm not the only one that enjoys a cold beer! We have 90 Minute IPA with the highest review count with 3290 reviews.
 
@@ -68,6 +68,7 @@ These codes will be able to give me the means of what I want to see.
 | Arrogant Bastard IPA | 2704 | 4.34 | 4.18 | 4.18 | 4.35 | 4.16 |
 | Sierra Nevada Pale Ale | 2587 | 3.91 | 4.00 | 3.97 | 4.11 | 4.24 |
 | Stone IPA (India Pale Ale) | 2575 | 4.24 | 4.14 | 4.14 | 4.30 | 4.26 |
-| Pliney The Elder | 2527 | 4.59 | 4.39 | 4.45 | 4.63 | 4.59 |
+| Pliny The Elder | 2527 | 4.59 | 4.39 | 4.45 | 4.63 | 4.59 |
 
+###
 
