@@ -26,3 +26,20 @@ It will show the top ten most reviewed beers and visualize the reviews of based 
 
 ## The code to get to the graphs
 
+~~~
+data_copy['beer_name'].value_counts().head(10)
+~~~
+Using value counts to look at the list in the dataframe, I can look up how many times a beer was reviewed.
+
+| Beer Name | Review Count | 
+| :------ |:--- |
+| 90 Minute IPA | 3290 | 
+| India Pale Ale | 3130 | 
+| Old Rasputin Russian Imperial Stout | 3111 |
+| Sierra Nevada Celebration Ale | 3000 |
+| Two Hearted Ale | 2728 |
+| Stone Ruination IPA | 2704 |
+| Arrogant Bastard Ale | 2704 |
+| Sierra Nevada Pale Ale | 2587 |
+| Stone IPA (India Pale Ale) | 2575 |
+| Pliney The Elder | 2527 |
