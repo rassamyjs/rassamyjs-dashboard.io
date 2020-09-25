@@ -134,4 +134,4 @@ Based off the table and graphs, we can see that the new mean does not change too
 
 To summarize, out of the ten most reviewed beers, Pliny The Elder is still rated the highest.  
 
-![Link to colab](https://colab.research.google.com/drive/1fIX99egbq8NNWfjVGBVA0LkGtldcI_mq#scrollTo=xenh68vZNBG-)
+[Link to colab](https://colab.research.google.com/drive/1fIX99egbq8NNWfjVGBVA0LkGtldcI_mq#scrollTo=xenh68vZNBG-)
