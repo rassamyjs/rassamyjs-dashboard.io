@@ -133,3 +133,5 @@ We can see that the user review was going off of .5 while the new mean goes off 
 Based off the table and graphs, we can see that the new mean does not change too much when graphing it. Why is that? The reason is from the amount of reviews. There is so many reviews already that a couple negative reviews will not change the outcome too much. [This](https://www.youtube.com/watch?v=8idr1WZ1A7Q&amp;ab_channel=3Blue1Brown) Youtube video does an excellent showing how large or little a negative rating will change the total rating. 
 
 To summarize, out of the ten most reviewed beers, Pliny The Elder is still rated the highest.  
+
+![Link to colab](https://colab.research.google.com/drive/1fIX99egbq8NNWfjVGBVA0LkGtldcI_mq#scrollTo=xenh68vZNBG-)
