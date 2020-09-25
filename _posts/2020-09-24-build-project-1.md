@@ -100,6 +100,7 @@ This gives me a new column to compare the new overall mean review with the old o
 | Beer Name | User Review | Mean Review |
 | :------ |:--- |:--- |
 | Pliny The Elder | 4.59 | 4.52 |
+
 ~~~
 compare = {'Mean Rating' : pliny['Overall'],
            'Reviewer Rating' : pliny['review_overall']}
