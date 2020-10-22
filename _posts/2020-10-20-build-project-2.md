@@ -1,21 +1,28 @@
 ---
 layout: post
 title: Hotel Cancelations 
-subtitle: Building a model to predict if someone will cancel a hotel reservation or not
+subtitle: Building a model to predict if a guest will keep their booking or cancel 
 tags: [books, test]
 ---
 ---
 
-I am going to create several models and compare them to see which will give the best prediction outcome. To start out, I will build a logistic regression model and a tree model using the bare minmum of wrangling to make basic models to go off of. 
-
 ## Leaky data
 
-First I looked at some columns that may give the result of staying in the hotel such as the reservation status and if arrival date also counts as a data leak.
+First I looked at some featuress that may give the result of staying in the hotel to prevent data leaks.
+There was another feature that was exaclty the same as my target called `'reservation_status'`.  
+The first iterations of testing I was using dates as a feature. Those dates gave my model score an accuracy of 99%. It ended up being a very important features to determine the score and was overfitting the model. 
 
 ## Models
 
-To start out, I will build a logistic regression model and a tree model using the bare minmum of wrangling to make basic models to go off of. 
+The prediction I want to find is a yes or no question. If a guest has canceled a booking or not. This means the models I will use will be for classification.
+To start out, I will build a logistic regression model and a random forest classifier tree model. I want to see if a date split or random split will give a better score and when you would use one over the other. My feature I will predict is `is_canceled`. For the time split, I will train on data before 2017 and test on 2017. For the random, it will be 80/20.
 
-I split my model by date with the year 2016 as my training, 2016 as validation, and 2017 for a testing data. I started with an XGBoost tree model first and ended up with a validation accuracy of 75%. Then I decided I wanted to use more of my data for training. I then changed the split to 2015-2016 for training and 2017 for validation. I ended up with a higher validation score of 77%. Using logistic regression, I had a validation score of 73%. Using XGBoost gave me a higher score.
+My baseline accuracy was around 60%. 
 
-Looking at the feature importances from the XGBoost model, deposit type was the highest followed by previous cancellations amd parking space. Using permutation importance, deposit type was still high up, but room types ended up being higher as well. 
+Using the logistic regression model, with the date split I got a test score of around 73%. With random split, the score was around 77%
+
+Using random forest, my scores were 76% for time and 86% for random. 
+
+## Interpretation 
+
+
