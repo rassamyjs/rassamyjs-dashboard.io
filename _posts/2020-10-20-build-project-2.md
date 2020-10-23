@@ -36,6 +36,11 @@ Next I wanted to treat this data like it was 2020 going into 2021 with the pande
 
 - Using random forest, my scores were 61% for a date split and 81% for random split. 
 
+| Pandemic Model | Date Split | Random Split |
+| :------ |:--- |:---|
+| Logistic Regression | 54% | 65% |
+| Random Forest | 61% | 81% |
+
 
 ## Interpretation 
 
