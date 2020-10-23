@@ -6,6 +6,10 @@ tags: [books, test]
 ---
 ---
 
+## Into
+
+I'll be building a model for booking cancelations for guest at a hotel. Comparing the models with date and random splits and comparing those model with a model that features Covid. 
+
 ## Leaky data
 
 First I looked at some featuress that may give the result of staying in the hotel to prevent data leaks.
@@ -44,5 +48,15 @@ Next I wanted to treat this data like it was 2020 going into 2021 with the pande
 
 ## Interpretation 
 
-In both models, the random split showed higher scores.
+Comparing the models, after adding the 'pandemic' feature, both models preformed worse than the previous ones. In both models, the random split showed higher scores compared to the date split model. After adding features, the logistic model is actually lower than the baseline. 
 
+![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_rfm.png)
+![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/pi_rfm.png)
+
+
+![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_rfm.png)
+![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_rfm.png)
+
+
+
+![Confusion Matrix](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/confusion_matrix.png)
