@@ -58,6 +58,6 @@ Comparing the models, after adding the 'pandemic' feature, both models preformed
 ![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_pandemic.png)
 ![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/pi_pandemic.png)
 
-
+d
 
 ![Confusion Matrix](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/confusion_matrix.png)
