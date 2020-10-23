@@ -21,8 +21,9 @@ My baseline accuracy was around 60%.
 
 Using the logistic regression model, with the date split I got a test score of around 73%. With random split, the score was around 77%
 
-Using random forest, my scores were 76% for time and 86% for random. 
+Using random forest, my scores were 76% for a date split and 86% for random split. 
 
 ## Interpretation 
 
+In both models, the random split showed higher scores.
 
