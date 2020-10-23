@@ -53,11 +53,11 @@ Comparing the models, after adding the 'pandemic' feature, both models preformed
 ![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_rfm.png)
 ![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/pi_rfm.png)
 
-
+Comparing the important features, feature importance has lead_time, adr, and deposit_type at the top. Permutation importance has deposit_type, total_of_special_requests, and lead_time at the top. looking at what they all mean, lead_time is the time between starting and completing a process. Adr is alternative dispute resolution. Deposit_type consist of: no deposit, nonrefundable, refundable. Of the two, permutation holds more weight for me because I can agree with what it defines as important. 
 
 ![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_pandemic.png)
 ![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/pi_pandemic.png)
 
-d
+Looking at these graphs, it appears that adding a pandemic feature appears in the top ten importances, but it falls on the bottom half. 
 
 ![Confusion Matrix](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/confusion_matrix.png)
