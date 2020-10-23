@@ -46,7 +46,7 @@ Next I wanted to treat this data like it was 2020 going into 2021 with the pande
 | Random Forest | 61% | 81% |
 
 
-## Interpretation 
+## Interpretation and Conclusion
 
 Comparing the models, after adding the 'pandemic' feature, both models preformed worse than the previous ones. In both models, the random split showed higher scores compared to the date split model. After adding features, the logistic model is actually lower than the baseline. 
 
@@ -58,6 +58,10 @@ Comparing the important features, feature importance has lead_time, adr, and dep
 ![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_pandemic.png)
 ![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/pi_pandemic.png)
 
-Looking at these graphs, it appears that adding a pandemic feature appears in the top ten importances, but it falls on the bottom half. 
+Looking at these graphs, it appears that adding a pandemic feature appears in the top ten importances, but it falls on the bottom half. The feature importances are similiar and having an agent replaces the special request on permutation importances.
 
 ![Confusion Matrix](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/confusion_matrix.png)
+
+Looking at the confusion matrix, for this dataset, having a false positive report would be worse than a false negative. 
+
+To wrap it up, the appearance of a pandemic brings down both my models. However, the model doesn't give a pandemic too much importance.
