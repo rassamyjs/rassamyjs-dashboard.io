@@ -51,7 +51,8 @@ Next I wanted to treat this data like it was 2020 going into 2021 with the pande
 Comparing the models, after adding the 'pandemic' feature, both models preformed worse than the previous ones. In both models, the random split showed higher scores compared to the date split model. After adding features, the logistic model is actually lower than the baseline. 
 
 ![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_rfm.png)
-![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/pi_rfm.png)
+![Permutation Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_rfm.png)
+
 
 
 ![Feature Importance](https://raw.githubusercontent.com/rassamyjs/rassamyjs-dashboard.io/master/assets/img/fi_rfm.png)
